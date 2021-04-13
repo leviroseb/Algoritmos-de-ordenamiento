@@ -1,0 +1,262 @@
+C++
+
+BubbleSort 
+Tiempo de ejecucion de 10000 : 0.552627
+Tiempo de ejecucion de 20000 : 2.32576
+Tiempo de ejecucion de 30000 : 5.21276
+Tiempo de ejecucion de 40000 : 9.35789
+Tiempo de ejecucion de 50000 : 14.7275
+Tiempo de ejecucion de 60000 : 21.1073
+Tiempo de ejecucion de 70000 : 28.7287
+Tiempo de ejecucion de 80000 : 37.6293
+Tiempo de ejecucion de 90000 : 49.2433
+Tiempo de ejecucion de 100000 : 58.7314
+
+InsertionSort
+Tiempo de ejecucion de 10000 : 0.10868
+Tiempo de ejecucion de 20000 : 0.410536
+Tiempo de ejecucion de 30000 : 0.923317
+Tiempo de ejecucion de 40000 : 1.64916
+Tiempo de ejecucion de 50000 : 2.57991
+Tiempo de ejecucion de 60000 : 3.74531
+Tiempo de ejecucion de 70000 : 5.08885
+Tiempo de ejecucion de 80000 : 6.61846
+Tiempo de ejecucion de 90000 : 8.33814
+
+SelectionSort
+Tiempo de ejecucion de 10000 : 0.108374
+Tiempo de ejecucion de 20000 : 0.431179
+Tiempo de ejecucion de 30000 : 0.969371
+Tiempo de ejecucion de 40000 : 1.73348
+Tiempo de ejecucion de 50000 : 2.69665
+Tiempo de ejecucion de 60000 : 3.88939
+Tiempo de ejecucion de 70000 : 5.2942
+Tiempo de ejecucion de 80000 : 6.92519
+Tiempo de ejecucion de 90000 : 8.74211
+Tiempo de ejecucion de 100000 : 10.7851
+
+CountingSort
+Tiempo de ejecucion de 10000 : 0.03873
+Tiempo de ejecucion de 20000 : 0.03863
+Tiempo de ejecucion de 30000 : 0.03884
+Tiempo de ejecucion de 40000 : 0.039092
+Tiempo de ejecucion de 50000 : 0.039555
+Tiempo de ejecucion de 60000 : 0.040273
+Tiempo de ejecucion de 70000 : 0.040911
+Tiempo de ejecucion de 80000 : 0.041548
+Tiempo de ejecucion de 90000 : 0.042074
+Tiempo de ejecucion de 100000 : 0.044668
+
+MergeSort
+Tiempo de ejecucion de 10000 : 0.002365
+Tiempo de ejecucion de 20000 : 0.004984
+Tiempo de ejecucion de 30000 : 0.008209
+Tiempo de ejecucion de 40000 : 0.011152
+Tiempo de ejecucion de 50000 : 0.013544
+Tiempo de ejecucion de 60000 : 0.016415
+Tiempo de ejecucion de 70000 : 0.019543
+Tiempo de ejecucion de 80000 : 0.022064
+Tiempo de ejecucion de 90000 : 0.025221
+Tiempo de ejecucion de 100000 : 0.028053
+
+QuickSort
+Tiempo de ejecucion de 10000 : 0.001959
+Tiempo de ejecucion de 20000 : 0.004126
+Tiempo de ejecucion de 30000 : 0.006414
+Tiempo de ejecucion de 40000 : 0.009146
+Tiempo de ejecucion de 50000 : 0.011162
+Tiempo de ejecucion de 60000 : 0.013788
+Tiempo de ejecucion de 70000 : 0.017087
+Tiempo de ejecucion de 80000 : 0.018973
+Tiempo de ejecucion de 90000 : 0.020793
+Tiempo de ejecucion de 100000 : 0.024563
+
+HeapSort
+Tiempo de ejecucion de 10000 : 0.003537
+Tiempo de ejecucion de 20000 : 0.007555
+Tiempo de ejecucion de 30000 : 0.011701
+Tiempo de ejecucion de 40000 : 0.015245
+Tiempo de ejecucion de 50000 : 0.022792
+Tiempo de ejecucion de 60000 : 0.024554
+Tiempo de ejecucion de 70000 : 0.032619
+Tiempo de ejecucion de 80000 : 0.03896
+Tiempo de ejecucion de 90000 : 0.037659
+Tiempo de ejecucion de 100000 : 0.043701
+
+
+PYTHON
+
+BubbleSort
+Tiempo de ejecucion de 10000 : 49.09939408302307
+Tiempo de ejecucion de 20000 : 182.45266795158386
+Tiempo de ejecucion de 30000 : 436.8637149333954
+tiempo de ejecucion de 40000 : 807.940113067627
+tiempo de ejecucion de 50000 : 1202.9260110855103
+tiempo de ejecucion de 60000 : 1703.947826346923
+tiempo de ejecucion de 70000 : 2328.013765912937
+tiempo de ejecucion de 80000 : 3216.73837401935
+tiempo de ejecucion de 90000 : 5269.233640192856
+tiempo de ejecucion de 100000 : 6481.59837492837401
+
+InsertionSort
+tiempo de ejecucion de 10000 :  11.442402839660645
+tiempo de ejecucion de 20000 :  48.58773493766785
+tiempo de ejecucion de 30000 :  115.0033597946167
+tiempo de ejecucion de 40000 :  222.76015186309814
+tiempo de ejecucion de 50000 :  291.8054280281067
+tiempo de ejecucion de 60000 :  492.2188348752039
+tiempo de ejecucion de 70000 :  679.9745610023716
+tiempo de ejecucion de 80000 :  866.6443471092836
+tiempo de ejecucion de 90000 :  1104.913764918394
+tiempo de ejecucion de 100000 :  1371.7611947264723
+
+SelectionSort
+tiempo de ejecucion de 10000 :  10.285737037658691
+tiempo de ejecucion de 20000 :  29.74811109364918
+tiempo de ejecucion de 30000 :  44.57413601875305
+tiempo de ejecucion de 40000 :  98.50180196762085
+tiempo de ejecucion de 50000 :  177.84165287017822
+tiempo de ejecucion de 60000 :  264.31695008277893
+tiempo de ejecucion de 70000 :  352.31423398401924
+tiempo de ejecucion de 80000 :  487.24734387491822
+tiempo de ejecucion de 90000 :  680.76241228639481
+tiempo de ejecucion de 100000 :  803.39492360945882
+
+
+CountingSort
+tiempo de ejecucion de 10000 :  0.04632902145385742
+tiempo de ejecucion de 20000 :  0.06548786163330078
+tiempo de ejecucion de 30000 :  0.08512496948242188
+tiempo de ejecucion de 40000 :  0.1052088737487793
+tiempo de ejecucion de 50000 :  0.13602614402770996
+tiempo de ejecucion de 60000 :  0.15323305130004883
+tiempo de ejecucion de 70000 :  0.17565608024597168
+tiempo de ejecucion de 80000 :  0.18494796752929688
+tiempo de ejecucion de 90000 :  0.21190786361694336
+tiempo de ejecucion de 100000 : 0.2648591995239258
+
+QuickSort
+tiempo de ejecucion de 10000 :  0.0860750675201416
+tiempo de ejecucion de 20000 :  0.18473100662231445
+tiempo de ejecucion de 30000 :  0.2687079906463623
+tiempo de ejecucion de 40000 :  0.3831000328063965
+tiempo de ejecucion de 50000 :  0.4665210247039795
+tiempo de ejecucion de 60000 :  0.6045069694519043
+tiempo de ejecucion de 70000 :  0.7792401313781738
+tiempo de ejecucion de 80000 :  0.8857171535491943
+tiempo de ejecucion de 90000 :  0.8794488906860352
+tiempo de ejecucion de 100000 :  1.1131069660186768
+
+MergeSort
+tiempo de ejecucion de 10000 :  0.10406613349914551
+tiempo de ejecucion de 20000 :  0.20519280433654785
+tiempo de ejecucion de 30000 :  0.3397209644317627
+tiempo de ejecucion de 40000 :  0.4812459945678711
+tiempo de ejecucion de 50000 :  0.5656630992889404
+tiempo de ejecucion de 60000 :  0.7182340621948242
+tiempo de ejecucion de 70000 :  0.8098578453063965
+tiempo de ejecucion de 80000 :  0.9818739891052246
+tiempo de ejecucion de 90000 :  1.061950922012329
+tiempo de ejecucion de 100000 :  1.1912250518798828
+
+HeapSort
+tiempo de ejecucion de 10000 :  0.20208096504211426
+tiempo de ejecucion de 20000 :  0.42241787910461426
+tiempo de ejecucion de 30000 :  0.6747879981994629
+tiempo de ejecucion de 40000 :  0.9806318283081055
+tiempo de ejecucion de 50000 :  1.1701090335845947
+tiempo de ejecucion de 60000 :  1.44136381149292
+tiempo de ejecucion de 70000 :  1.704030990600586
+tiempo de ejecucion de 80000 :  2.2010531425476074
+tiempo de ejecucion de 90000 :  2.2686610221862793
+tiempo de ejecucion de 100000 : 2.6234381198883057
+
+JAVA
+
+BubbleSort
+tiempo de ejecucion de 10000 :  0.180
+tiempo de ejecucion de 20000 :  0.658
+tiempo de ejecucion de 30000 :  1.499
+tiempo de ejecucion de 40000 :  2.723
+tiempo de ejecucion de 50000 :  4.244
+tiempo de ejecucion de 60000 :  6.202
+tiempo de ejecucion de 70000 :  8.768
+tiempo de ejecucion de 80000 :  11.778
+tiempo de ejecucion de 90000 :  15.167
+tiempo de ejecucion de 100000 :  17.721
+
+InsertSort
+tiempo de ejecucion de 10000 :  0.078 
+tiempo de ejecucion de 20000 :  0.216
+tiempo de ejecucion de 30000 :  0.108
+tiempo de ejecucion de 40000 :  0.192
+tiempo de ejecucion de 50000 :  0.359
+tiempo de ejecucion de 60000 :  0.445
+tiempo de ejecucion de 70000 :  0.596
+tiempo de ejecucion de 80000 :  0.790
+tiempo de ejecucion de 90000 :  0.969
+tiempo de ejecucion de 100000 :  1.224
+
+SelectionSort
+tiempo de ejecucion de 10000 :  0.051
+tiempo de ejecucion de 20000 :  0.115
+tiempo de ejecucion de 30000 :  0.130
+tiempo de ejecucion de 40000 :  0.353
+tiempo de ejecucion de 50000 :  0.636
+tiempo de ejecucion de 60000 :  1.849
+tiempo de ejecucion de 70000 :  1.415
+tiempo de ejecucion de 80000 :  1.634
+tiempo de ejecucion de 90000 :  1.117
+tiempo de ejecucion de 100000 :  2.741
+
+CountingSort
+tiempo de ejecucion de 10000 :  0.0162
+tiempo de ejecucion de 20000 :  0.0082
+tiempo de ejecucion de 30000 :  0.0055
+tiempo de ejecucion de 40000 :  0.0043
+tiempo de ejecucion de 50000 :  0.0028
+tiempo de ejecucion de 60000 :  0.0016
+tiempo de ejecucion de 70000 :  0.0021
+tiempo de ejecucion de 80000 :  0.0021
+tiempo de ejecucion de 90000 :  0.0092
+tiempo de ejecucion de 100000 :  0.0024
+
+QuickSort
+tiempo de ejecucion de 10000 :  0.0030
+tiempo de ejecucion de 20000 :  0.0029
+tiempo de ejecucion de 30000 :  0.0036
+tiempo de ejecucion de 40000 :  0.0042
+tiempo de ejecucion de 50000 :  0.0061
+tiempo de ejecucion de 60000 :  0.0063
+tiempo de ejecucion de 70000 :  0.0067
+tiempo de ejecucion de 80000 :  0.0072
+tiempo de ejecucion de 90000 :  0.0081
+tiempo de ejecucion de 100000 :  0.0093
+
+MergeSort
+tiempo de ejecucion de 10000 :  0.0063
+tiempo de ejecucion de 20000 :  0.0103
+tiempo de ejecucion de 30000 :  0.0105
+tiempo de ejecucion de 40000 :  0.0082
+tiempo de ejecucion de 50000 :  0.0114
+tiempo de ejecucion de 60000 :  0.0152
+tiempo de ejecucion de 70000 :  0.0163
+tiempo de ejecucion de 80000 :  0.0147
+tiempo de ejecucion de 90000 :  0.0152
+tiempo de ejecucion de 100000 :  0.0192
+
+HeapSort
+tiempo de ejecucion de 10000 :  0.0041
+tiempo de ejecucion de 20000 :  0.0057
+tiempo de ejecucion de 30000 :  0.0119
+tiempo de ejecucion de 40000 :  0.0132
+tiempo de ejecucion de 50000 :  0.0157
+tiempo de ejecucion de 60000 :  0.0129
+tiempo de ejecucion de 70000 :  0.0142
+tiempo de ejecucion de 80000 :  0.0159
+tiempo de ejecucion de 90000 :  0.0161
+tiempo de ejecucion de 100000 :  0.0194
+
+
+
+
