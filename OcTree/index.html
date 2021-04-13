@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        
+        <title>Octree</title>
+
+    </head>
+    
+    <body>
+        <h3></h3>
+        <div class="conteiner w-100 p-0 m-0 ">
+            <div class="row">
+                <div class="col-2 mr-0 ml-3 p-2">
+                    <button class="btn btn-outline-primary" onclick="create()">Crear</button>
+                    <input type="text" id="N1" placeholder="n" size="1">
+                </div>
+
+                <div class="col-2 mr-0 ml-3 p-2">
+                    <button class="btn btn-outline-primary" onclick="nrand()">Random</button>
+                    <input type="text" id="N2" placeholder="n" size="1">
+                </div>
+
+                <div class="col-6 ">
+                    <input type="text" id="CX" placeholder="x" size="1">
+                    <input type="text" id="CY" placeholder="y" size="1">
+                    <input type="text" id="CZ" placeholder="z" size="1">
+
+                    <input type="text" id="CW" placeholder="w" size="1">
+                    <input type="text" id="CH" placeholder="h" size="1">
+                    <input type="text" id="CD" placeholder="d" size="1">
+                    
+                    <div class="btn-group p-2"> 
+                        <button class="btn btn-outline-primary" onclick="query()">Crear query</button>
+                        <button class="btn btn-outline-primary" onclick="squery()">Mostrar</button>
+                        <button class="btn btn-outline-primary" onclick="dquery()">Limpiar</button>
+                    </div>
+                    
+                </div>
+
+                <div class="col-1 mr-0 ml-3 p-2">
+                    <button class="btn btn-outline-danger" onclick="clean()">Eliminar</button>
+                </div>
+            </div>
+        </div>
+        <h3></h3>
+
+        <div id="found"></div> 
+
+        <h3></h3>
+        
+        <script>
+
+        function create(){
+            var n = document.getElementById("N1").value;
+            createOctree(n);
+        }
+
+        function query(){
+            dquery();
+            var cx = document.getElementById("CX").value;
+            var cy = document.getElementById("CY").value;
+            var cz = document.getElementById("CZ").value;
+            var cw = document.getElementById("CW").value;
+            var ch = document.getElementById("CH").value;
+            var cd = document.getElementById("CD").value;
+            let box = new Box(cx,cy,cz,cw,ch,cd);
+            let found = [];
+            octree.query(box,found);
+            document.getElementById("found").innerHTML = "Puntos encontrados : " + found.length;
+        }
+
+        function squery(){
+            dquery();
+            var cx = document.getElementById("CX").value;
+            var cy = document.getElementById("CY").value;
+            var cz = document.getElementById("CZ").value;
+            var cw = document.getElementById("CW").value;
+            var ch = document.getElementById("CH").value;
+            var cd = document.getElementById("CD").value;
+            var geometry = new THREE.BoxGeometry(cw*2,ch*2,cd*2);
+            var material = new THREE.MeshBasicMaterial( { color: 0x00ff00, opacity: alpha , transparent: false, } );
+            material.color.set(this.color);
+            var cube = new THREE.Mesh( geometry, material );
+            cube.position.set(cx,cy,cz);
+            q = cube;
+            scene.add(q);
+        }
+
+        function dquery(){
+            var cx = document.getElementById("CX").value;
+            var cy = document.getElementById("CY").value;
+            var cz = document.getElementById("CZ").value;
+            var cw = document.getElementById("CW").value;
+            var ch = document.getElementById("CH").value;
+            var cd = document.getElementById("CD").value;
+            let box = new Box(cx,cy,cz,cw,ch,cd);
+            octree.cleanQuery(box);
+            scene.remove(q);
+            q = null;
+        }
+
+        function nrand(){
+            var nr = document.getElementById("N2").value;
+            rand(nr);
+        }
+
+        function clean(){
+            scene = new THREE.Scene();
+            scene.add( axisHelper );
+        }
+
+        </script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+        <script src="lib/three.js"></script>
+        <script src="lib/OrbitControls.js"></script>
+        <script src="octree.js"></script>
+        <script src="main.js"></script>
+        
+
+    </body>
+</html>
